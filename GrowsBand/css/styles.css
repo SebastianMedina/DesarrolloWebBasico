@@ -1,0 +1,162 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+.container{
+  width: 800px;
+  margin: auto;
+  position: relative;
+}
+.background {
+  background: url('../images/guitar-background.png');
+  background-size: cover;
+}
+.logo {
+  display: inline-block;
+  margin-left: 460px;
+}
+.title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 72px;
+  color: #000000;
+  text-align: center;
+  text-shadow: -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+   -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+  margin: 15px -233px 20px 200px;
+
+}
+.menu {
+  font-family: 'Space Mono', monospace;
+  font-size: 26px;
+  display: inline-block;
+  padding: 0;
+  margin: -8px -100px 42px 305px;
+}
+.menu li {
+  display: inline-block;
+  margin-left: 30px;
+}
+.menu a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.menu li:before{
+  content: '·';
+  color: #FFFFFF;
+}
+ol {
+  margin-top: 54px;
+}
+.menu .button, .footer .button {
+  font-family: 'Francois One', sans-serif;
+  font-size: 26px;
+  color: #4A4A4A;
+  text-decoration: none;
+  text-shadow: -.5px -.5px 0 #fff,
+    .5px -.5px 0 #fff,
+   -.2px .2px 0 #fff,
+    .2px .2px 0 #fff;
+  background: linear-gradient(to left, #4F0407, #EF8A00);
+  margin-left: 205px;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.aboutus {
+  position: relative;
+  margin: 60px 50px 0 50px;
+  padding: 40px 0;
+  width: 946px;
+  height: 485px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+.aboutus .title{
+  margin-left: -1100px;
+}
+.aboutus h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 48px;
+}
+.aboutus .part-a {
+  margin: 0;
+}
+.aboutus .part-b {
+  margin: 0;
+  margin-left: 4px;
+}
+.aboutus .description {
+  margin: -20px 0 0 67px;
+  position: relative;
+  border: 1px solid #979797;
+  width: 822px;
+  height: 300px;
+  border-radius: 6px;
+}
+.right {
+  float: right;
+  position: relative;
+  right: -41px;
+  top: -385px;
+}
+.description p {
+  font-family: 'Ranga', cursive;
+  font-size: 36px;
+  margin: 10px 15px;
+  text-align: justify;
+}
+p {
+  margin: 0;
+}
+.footer {
+  background: black;
+  margin-top: 60px;
+  padding: 40px 0;
+}
+.footer .container {
+  display: flex;
+}
+.contac {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  display: flex;
+  margin-right: 100px;
+  width: 300px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.contac img {
+  display: block;
+  width: 160px;
+  height: 85px;
+  margin: 10px 0 10px 100px;
+}
+.contac a {
+  color: white;
+  text-decoration: none;
+  margin: 10px -50px 10px 85px
+}
+.contac strong {
+  display: block;
+  text-align: center;
+}
+.form {
+  display: flex;
+  color: white;
+}
+/*.form label {
+  margin: 10px
+}*/
+.column1 {
+  display: block;
+  margin: 38px 200px;
+}
+.column1 input {
+  margin: 10px 0;
+}
+.column2{
+  display: block;
+}

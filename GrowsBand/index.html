@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Francois+One|Oswald|Roboto|Space+Mono|Merriweather:700|Ranga|Montserrat" rel="stylesheet">
+  <title>Grows Band - Home</title><!--Titulo del website en el navegador-->
+</head>
+<body>
+  <section id="background" class="background"> <!--Portada del website-->
+    <header id="header" class="header container"> <!--Cabecera de la portada-->
+      <figure class="logo"><!--Logo del website-->
+        <img src="images/logo.png" width="369" alt="LogoGrows">
+      </figure>
+      <div class="description"><!--Mensaje de promocion-->
+        <h1 class="title">The best rock band on the world</h1>
+      </div>
+      <nav class="menu"><!--Menu de seleccion del website-->
+        <ul><!--Lista desorneada-->
+          <li><!--Item del menu-->
+            <a href="#">Home</a>
+          </li>
+          <li><!--Item del menu-->
+            <a href="#">About Us</a>
+          </li>
+          <li><!--Item del menu-->
+            <a href="#">Concerts</a>
+          </li>
+        </ul>
+        <ol><!--Lista ordenada-->
+          <a class="button" href="#">Members</a><!--Boton-->
+        </ol>
+      </nav>
+    </header>
+  </section>
+  <section id="aboutus" class="aboutus"><!--Seccion de informacion del producto-->
+    <div class="title">
+      <h2 class="part-a">About</h2><!--Titulo de la seccion-->
+      <h2 class="part-b">Us</h2><!--Titulo de la seccion-->
+    </div>
+    <article class="guitarrisman">
+      <div class="description">
+        <p>We are a famous british rock band.</p><!--Mensaje situado a un costado de la imagen-->
+      </div>
+      <img src="images/guitarrist.png" alt="GuitarristMan" class="right" width="284"/><!--Imagen de guitarrista-->
+    </article>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="contac">
+        <img src="images/logofooter.png" alt="logo footer">
+        <a href="tel:1234567890"><strong>Phone:</strong><span>1234567890</span></a>
+        <a href="mailto:growsb@gb.com"><strong>E-mail:</strong><span>growsb@gb.com</span></a>
+      </div>
+      <form class="form">
+        <div class="column1">
+          <label for="name">Name:</label>
+          <input type="text" required name="name" id="name">
+          <label for="email">E-mail:</label>
+          <input type="email" required name="email" id="email">
+        </div>
+        <div class="column2">
+          <label for="comments">Comments</label>
+          <textarea name="name" id="comments" rows="7" cols="30"></textarea>
+          <input class="button" type="submit" value="Send"/>
+        </div>
+      </form>
+    </div>
+  </footer>
+</body>
+</html>
